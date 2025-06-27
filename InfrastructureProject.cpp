@@ -17,4 +17,12 @@ void InfrastructureProject::printSummary() const {
     std::cout << "Infrastructure Project: Cost = $" << calculateCost()
               << ", Duration = " << getDuration() << " months, Permits: "
               << getRequiredPermits() << std::endl;
+    std::cout << "Workers:" << std::endl;
+    for (const auto& w : workers) {
+        std::cout << "  " << w.getName() << " - " << w.getRole() << std::endl;
+    }
+    std::cout << "Materials:" << std::endl;
+    for (const auto& m : materials) {
+        std::cout << "  " << m.getName() << ": " << m.getQuantity() << std::endl;
+    }
 } 
