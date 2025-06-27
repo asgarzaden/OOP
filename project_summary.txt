@@ -1,0 +1,12 @@
+Project Topic: Construction
+
+Summary:
+This project will model a construction management system using object-oriented programming principles in C++. The core of the model will be an abstract base class, ConstructionProject, representing a generic construction project. Derived classes will include specific types of projects such as ResidentialProject, CommercialProject, and InfrastructureProject, each with their own unique behaviors and properties.
+
+Key Features:
+- Polymorphism: Virtual methods such as calculateCost(), getDuration(), and getRequiredPermits() will be overridden in derived classes to reflect the differences between project types.
+- Additional Classes: The system will include classes for Worker, Engineer, Material, and Equipment, demonstrating relationships such as composition and aggregation.
+- Design Patterns: The project may utilize design patterns such as Factory (for creating projects), Composite (for managing project components), and Observer (for tracking project progress).
+- Testing: The code will be tested to ensure correct behavior of polymorphic methods and class interactions.
+
+The goal is to demonstrate a strong understanding of object-oriented design, with a focus on polymorphism, inheritance, and the use of design patterns in a real-world context related to construction. 
